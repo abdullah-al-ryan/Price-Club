@@ -12,8 +12,22 @@ const Pricing = () => {
             'Hudai Feature',
             'Ajaira Feature',
         ] },
-        { id: 1, name: 'Medium', price: 9.99 },
-        { id: 1, name: 'Premium', price: 19.99 }
+        { id: 2, name: 'Medium', price: 9.99, features: [
+            'Everything on Free',
+            'Extra Feature',
+            'Unnecessary Feature',
+            'Will never use Feature',
+            'Hudai Feature',
+            'Ajaira Feature',
+        ] },
+        { id: 3, name: 'Premium', price: 19.99, features: [
+            'Everything on Premium',
+            'Extra Feature',
+            'Unnecessary Feature',
+            'Will never use Feature',
+            'Hudai Feature',
+            'Ajaira Feature',
+        ] }
     ]
     return (
         <div>
